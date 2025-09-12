@@ -104,7 +104,7 @@ function ChatPage() {
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
             placeholder="Type somthing...."
-            className="flex-grow p-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="flex-grow p-2 border border-gray-300  focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
           />
           <button
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 "
